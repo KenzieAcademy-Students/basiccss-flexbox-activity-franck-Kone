@@ -27,7 +27,11 @@ html {
     border-left: 1px solid #d7dbdd;
     overflow: hidden;
     /* As a flex item: flex-grow, flex-shrink, flex-basis */
+    flex-basis: 300px;
     /* As a flex container: display, flex-direction, justify-content, align-items */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .card-description {
