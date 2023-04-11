@@ -17,6 +17,8 @@ html {
     max-width: 800px;
     margin: auto;
     /* As a flex container: display, flex-direction, justify-content, align-items */
+    display: flex;
+   
 }
 
 .card {
