@@ -27,11 +27,11 @@ html {
     border-left: 1px solid #d7dbdd;
     overflow: hidden;
     /* As a flex item: flex-grow, flex-shrink, flex-basis */
-    flex-basis: 300px;
+    flex-basis:34%;
     /* As a flex container: display, flex-direction, justify-content, align-items */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 .card-description {
@@ -41,7 +41,7 @@ html {
     /* As a flex container: display, flex-direction, justify-content, align-items */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 
