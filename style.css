@@ -37,7 +37,12 @@ html {
 .card-description {
     padding: 15px 0;
     /* As a flex item: flex-grow, flex-shrink, flex-basis */
+    flex-grow: 1;
     /* As a flex container: display, flex-direction, justify-content, align-items */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card .card-description .icon {
